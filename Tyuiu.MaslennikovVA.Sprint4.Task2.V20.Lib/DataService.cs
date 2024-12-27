@@ -17,7 +17,7 @@ namespace Tyuiu.MaslennikovVA.Sprint4.Task2.V20.Lib
             {
                 if (array[i] % 2 == 0)
                 {
-                    MultArray *= array[i];
+                    MultArray += array[i];
                 }
             }
             return MultArray;
