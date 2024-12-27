@@ -12,7 +12,7 @@ namespace Tyuiu.MaslennikovVA.Sprint4.Task2.V20.Lib
     {
         public int Calculate(int[] array)
         {
-            int MultArray = 1;
+            int MultArray = 0;
             for (int i = 1; i < array.Length; i++)
             {
                 if (array[i] % 2 == 0)
